@@ -1,33 +1,42 @@
-# TP Tecnologias de Desarrollo de Software IDE 
-Trabajo práctico integrador realizado por los alumnos Bruno Raul, Caro Ariana y Lardizabal Tomás.
+# Academic Management System
+
+Sistema de Gestión Académica desarrollado como trabajo práctico integrador para la materia Tecnologías de Desarrollo de Software IDE.
+
+Proyecto realizado por los alumnos:
+- Bruno, Raúl
+- Caro, Ariana
+- Lardizabal, Tomás
 
 
-El Sistema de Gestión Académica (SGA) registra y administra las actividades académicas de la universidad en torno a las entidades principales de Alumnos, Profesores, Materias y Cursos.
 
-Tanto los Alumnos como los Profesores tienen datos en común tales como Legajo, Nombre, Apellido, Dirección, entre otros.
+El Sistema de Gestión Académica (SGA) registra y administra las actividades académicas de una universidad, en torno a las entidades principales:
+- Alumnos
+- Profesores
+- Materias
+- Cursos
 
-Las materias pertenecen a un Plan y tienen cantidad de horas de cursado semanales y totales.
-Los Planes son de una Especialidad.
+Tanto los alumnos como los profesores poseen datos en común como legajo, nombre, apellido y dirección.
 
-Al inicio de cada año académico, la dirección académica crea los Cursos para cada Materia, a los que se les asigna una Comisión y cupo definido.
+Las materias pertenecen a un plan de estudios, el cual forma parte de una especialidad, y cuentan con horas de cursado semanales y totales.
 
-Cada Curso tiene asignados Docentes en diferentes cargos.
+Al inicio de cada año académico, la dirección académica crea los cursos correspondientes a cada materia, asignando comisión y cupo.
 
-Los Alumnos se inscriben a los diferentes Cursos, los cuales corresponden a una Materia, una Comisión y un año calendario de cursado.
+Los alumnos pueden inscribirse a los cursos disponibles, siempre que el cupo no se encuentre completo. El sistema registra los datos de cada inscripción y permite el seguimiento académico.
 
 Al hacerlo, el sistema deberá registrar los datos de dicha inscripción.
 El sistema solo permitirá inscripciones a Cursos que no tengan el cupo agotado.
  
- ## Funcionalidades implementadas:
- Teniendo en cuenta el modelo anterior, las funcionalidades implementadas son las siguientes:
- 1. Alta, Baja, Modificaciones y Consulta de Usuarios
- 2. Alta, Baja, Modificaciones y Consulta de Alumnos
- 3. Alta, Baja, Modificaciones y Consulta de Especialidades
- 4. Alta, Baja, Modificaciones y Consulta de Profesores
- 5. Alta, Baja, Modificaciones y Consulta de Planes y Materias
- 6. Alta, Baja, Modificaciones y Consulta de Comisiones
- 7. Alta, Baja, Modificaciones y Consulta de Cursos
- 8. Inscripciones de Alumnos a Cursos
- 9. Registro de Notas
- 10. Reporte de Cursos
- 11. Reporte de Planes
+## Funcionalidades
+
+- Alta, baja, modificación y consulta de usuarios
+- Gestión de alumnos
+- Gestión de profesores
+- Gestión de especialidades
+- Gestión de planes y materias
+- Gestión de comisiones
+- Gestión de cursos
+- Inscripción de alumnos a cursos
+- Registro de notas
+- Reportes de cursos
+- Reportes de planes
+
